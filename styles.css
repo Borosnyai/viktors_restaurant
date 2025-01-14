@@ -228,6 +228,24 @@ html {
 .button:hover {
   background-color: #555;
 }
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  padding: 10px;
+
+}
+.right_container{
+  width: 50%;
+
+}
+.left_container{
+  width: 50%;
+  
+}
 
 @media screen and (max-width: 650px) {
   .column {
